@@ -17,4 +17,18 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+
+  display: flex;
+}
+
+.country-list__item {
+  list-style: none;
+  display: flex;
+
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.country-list__title {
+  font-size: 15px;
 }
